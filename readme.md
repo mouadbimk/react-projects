@@ -23,6 +23,16 @@ Each project focuses on specific ideas and is structured for reusability and cla
 
 ---
 
+## Images Of Projects
+
+# Counter Project
+
+![Counter Project]('./covers/counter.png')
+
+# Todo List Project
+
+![Todo List Project]('./covers/todo-list.png')
+
 ## 🧩 Concepts Covered
 
 - 🔹 **State Management** – using `useState` for UI updates
