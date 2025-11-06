@@ -27,11 +27,11 @@ Each project focuses on specific ideas and is structured for reusability and cla
 
 # Counter Project
 
-![Counter Project]('/covers/counter.png')
+![Counter Project]('covers/counter.png')
 
 # Todo List Project
 
-![Todo List Project]('/covers/todo-list.png')
+![Todo List Project]('covers/todo-list.png')
 
 ## 🧩 Concepts Covered
 
