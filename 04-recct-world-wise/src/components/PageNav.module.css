@@ -1,0 +1,28 @@
+.nav {
+  background-color: #eee;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 1rem 1.5rem;
+}
+.link {
+  font-family: inherit;
+  font-size: 1.6rem;
+  text-decoration: none;
+  display: inline-block;
+  color: #1971c2;
+}
+
+.active {
+  color: #d0ebff;
+}
+:global(.test) {
+  background-color: RED;
+}
+.nav :global(.active) {
+  color: #339af0;
+  transition: all 0.4s ease;
+}
