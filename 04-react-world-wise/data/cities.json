@@ -35,6 +35,78 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Telouet",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2025-11-19T16:30:56.502Z",
+      "notes": "sad",
+      "position": {
+        "lat": "31.18460913574325",
+        "lng": "-7.053222656250001"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Adis",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2025-11-19T16:33:22.670Z",
+      "notes": "sdadas",
+      "position": {
+        "lat": "29.66896252599253",
+        "lng": "-8.041992187500002"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Dar Bel Amri",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2025-11-19T16:33:42.793Z",
+      "notes": "adsads",
+      "position": {
+        "lat": "34.19817309627726",
+        "lng": "-6.04248046875"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Boulanouare",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2025-11-19T16:35:09.089Z",
+      "notes": "x",
+      "position": {
+        "lat": "32.879587173066305",
+        "lng": "-6.767578125000001"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Tadighoust",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2025-11-19T16:37:37.098Z",
+      "notes": "dsa",
+      "position": {
+        "lat": "32.02670629333614",
+        "lng": "-4.614257812500001"
+      },
+      "id": 98443202
+    },
+    {
+      "cityName": "Jaafra",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2025-11-19T16:38:35.188Z",
+      "notes": "",
+      "position": {
+        "lat": "32.287132632616384",
+        "lng": "-7.822265625000001"
+      },
+      "id": 98443203
     }
   ]
 }
