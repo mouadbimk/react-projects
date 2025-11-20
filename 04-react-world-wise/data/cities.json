@@ -25,18 +25,6 @@
       "id": 17806751
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
       "cityName": "Telouet",
       "country": "Morocco",
       "emoji": "🇲🇦",
@@ -61,52 +49,52 @@
       "id": 98443199
     },
     {
-      "cityName": "Dar Bel Amri",
+      "cityName": "Tamezmoute",
       "country": "Morocco",
       "emoji": "🇲🇦",
-      "date": "2025-11-19T16:33:42.793Z",
-      "notes": "adsads",
+      "date": "2025-11-20T08:53:52.872Z",
+      "notes": "a",
       "position": {
-        "lat": "34.19817309627726",
-        "lng": "-6.04248046875"
-      },
-      "id": 98443200
-    },
-    {
-      "cityName": "Boulanouare",
-      "country": "Morocco",
-      "emoji": "🇲🇦",
-      "date": "2025-11-19T16:35:09.089Z",
-      "notes": "x",
-      "position": {
-        "lat": "32.879587173066305",
-        "lng": "-6.767578125000001"
-      },
-      "id": 98443201
-    },
-    {
-      "cityName": "Tadighoust",
-      "country": "Morocco",
-      "emoji": "🇲🇦",
-      "date": "2025-11-19T16:37:37.098Z",
-      "notes": "dsa",
-      "position": {
-        "lat": "32.02670629333614",
-        "lng": "-4.614257812500001"
+        "lat": "30.826780904779774",
+        "lng": "-6.020507812500001"
       },
       "id": 98443202
     },
     {
-      "cityName": "Jaafra",
-      "country": "Morocco",
-      "emoji": "🇲🇦",
-      "date": "2025-11-19T16:38:35.188Z",
+      "cityName": "Bir El Hafey",
+      "country": "Tunisia",
+      "emoji": "🇹🇳",
+      "date": "2025-11-20T08:57:28.347Z",
       "notes": "",
       "position": {
-        "lat": "32.287132632616384",
-        "lng": "-7.822265625000001"
+        "lat": "34.97600151317588",
+        "lng": "9.338378906250002"
       },
       "id": 98443203
+    },
+    {
+      "cityName": "Rechaiga",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2025-11-20T09:01:20.023Z",
+      "notes": "",
+      "position": {
+        "lat": "35.28150065789119",
+        "lng": "2.2192382812500004"
+      },
+      "id": 98443204
+    },
+    {
+      "cityName": "Sidi Abderrahmane",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2025-11-20T09:11:19.563Z",
+      "notes": "",
+      "position": {
+        "lat": "34.72355492704221",
+        "lng": "1.0327148437500002"
+      },
+      "id": 98443205
     }
   ]
 }
