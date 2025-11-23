@@ -1,4 +1,10 @@
-import { createContext, useEffect, useContext, useReducer } from "react";
+import {
+  createContext,
+  useEffect,
+  useContext,
+  useReducer,
+  useCallback,
+} from "react";
 
 const CitiesContext = createContext();
 const BASE_URL = "http://localhost:8800/cities";
@@ -54,23 +60,26 @@ function CitiesProvider({ children }) {
     }
     fetchCittes();
   }, []);
-  async function getCity(id) {
-    if (Number(id) === Number(currentCity.id)) return;
-    // setIsLoading(true);
-    dispatch({ type: "loading", payload: true });
-    try {
-      const res = await fetch(`${BASE_URL}/${id}`);
-      if (!res) throw new Error("Cannot get data from server!");
-      const data = await res.json();
-      dispatch({ type: "city/loaded", payload: data });
-      // setCurrentCity(data);
-    } catch (err) {
-      dispatch({ type: "rejected", payload: err.message });
-    } finally {
-      dispatch({ type: "loading", payload: false });
-      // setIsLoading(false);
-    }
-  }
+  const getCity = useCallback(
+    async function (id) {
+      if (Number(id) === Number(currentCity.id)) return;
+      // setIsLoading(true);
+      dispatch({ type: "loading", payload: true });
+      try {
+        const res = await fetch(`${BASE_URL}/${id}`);
+        if (!res) throw new Error("Cannot get data from server!");
+        const data = await res.json();
+        dispatch({ type: "city/loaded", payload: data });
+        // setCurrentCity(data);
+      } catch (err) {
+        dispatch({ type: "rejected", payload: err.message });
+      } finally {
+        dispatch({ type: "loading", payload: false });
+        // setIsLoading(false);
+      }
+    },
+    [currentCity]
+  );
   async function createCity(newCity) {
     // setIsLoading(true);
     dispatch({ type: "loading", payload: true });
