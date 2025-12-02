@@ -1,6 +1,13 @@
 import { Link } from "react-router-dom";
 
-export function Button({ children, isDisabled, linkTo, type, onClick }) {
+export function Button({
+  children,
+  isDisabled,
+  linkTo,
+  type,
+  onClick,
+  hidden,
+}) {
   const base =
     "inline-block rounded-full bg-yellow-500 text-sm font-semibold uppercase tracking-wide text-stone-800 duration-300 hover:bg-yellow-300 hover:transition-colors focus:outline-none focus:ring focus:ring-yellow-300 focus:ring-offset-2 disabled:cursor-not-allowed disabled:bg-yellow-200";
   const styles = {
@@ -16,7 +23,12 @@ export function Button({ children, isDisabled, linkTo, type, onClick }) {
       </Link>
     );
   return (
-    <button disabled={isDisabled} className={styles[type]} onClick={onClick}>
+    <button
+      disabled={isDisabled}
+      className={styles[type]}
+      onClick={onClick}
+      style={{ display: hidden ? "none" : "inline-block" }}
+    >
       {children}
     </button>
   );

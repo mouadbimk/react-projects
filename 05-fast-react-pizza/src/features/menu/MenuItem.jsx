@@ -40,7 +40,7 @@ function MenuItem({ pizza }) {
               Sold out
             </p>
           )}
-          <Button type="small" onClick={handleAddToCart}>
+          <Button type="small" onClick={handleAddToCart} hidden={pizza.soldOut}>
             Add to cart
           </Button>
         </div>

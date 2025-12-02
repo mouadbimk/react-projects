@@ -7,6 +7,7 @@ import {
 import { Button } from "../../ui/Button";
 // import { createOrder } from "../../services/apiRestaurant";
 import { useSelector } from "react-redux";
+import { getCart } from "../cart/cartSlice";
 // https://uibakery.io/regex-library/phone-number
 const isValidPhone = (str) =>
   /^\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}$/.test(
@@ -15,7 +16,7 @@ const isValidPhone = (str) =>
 
 function CreateOrder() {
   const navigation = useNavigation();
-  const cart = useSelector((state) => state.cart.cart);
+  const cart = useSelector(getCart);
   const isSubmiting = navigation.state === "submitting";
   const username = useSelector((state) => state.user.username);
   // const [withPriority, setWithPriority] = useState(false);
